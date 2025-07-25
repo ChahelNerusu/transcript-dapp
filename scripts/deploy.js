@@ -1,4 +1,6 @@
+/* eslint-env node */
 // scripts/deploy.js
+/* global ethers, process */
 
 async function main() {
   const [deployer] = await ethers.getSigners();
